@@ -57,3 +57,30 @@ clear text (plain text) -> encryption function + encryption key -> cipher text (
 - Known plaintext attack (KPA): the attacker has access to some pairs of plaintext and ciphertext
 - Chosen plaintext attack (CPA): the attacker can choose arbitrary plaintexts to be encrypted and obtain the corresponding ciphertexts
 - Chosen ciphertext attack (CCA): the attacker can choose arbitrary ciphertexts to be decrypted and obtain the corresponding plaintexts
+
+### Side channel attacks
+
+- The attacker exploits information leaked during the encryption/decryption process (e.g., timing, power consumption, electromagnetic leaks)
+
+### Zero stuff
+
+- Zero day vulnerabilities:
+  - Vulnerabilities that are unknown to the vendor and have no patch available
+- Zero knowledge protocols:
+  - A method by which one party can prove to another party that they know a value, without revealing any information about the value itself
+- Zero Trust security:
+  - The concept of having no inherent trust in any user or system, and requiring strict verification and authentication for every access request
+- Zero click attacks:
+  - Attacks that do not require any user interaction to be successful (e.g., drive-by downloads, watering hole attacks)
+
+### Cybersecurity Objectives
+
+- Confidentiality: Ensuring that information is only accessible to those who are authorized to access it.
+- Availability: Ensuring that information and systems are accessible and usable when needed.
+- Authentication: The process of verifying the identity of a user or system.
+- Non-repudiation: The ability to prove that a user or system performed a specific action, preventing them from denying it later.
+- Data integrity: The assurance that data has not been altered or tampered with during transmission or storage.
+
+### Threat Modeling
+
+- Is a structured approach to identifying and assessing potential threats to a system or application.
