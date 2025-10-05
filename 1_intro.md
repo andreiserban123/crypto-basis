@@ -84,3 +84,19 @@ clear text (plain text) -> encryption function + encryption key -> cipher text (
 ### Threat Modeling
 
 - Is a structured approach to identifying and assessing potential threats to a system or application.
+
+## Mathematical Background
+
+- XOR
+
+plain_text XOR key = cipher_text
+cipher_text XOR key = plain_text
+
+- Log x
+
+we use log base 2 to analyze the complexity of password cracking. Total number of possible passwords = 2^n, where n is the number of bits in the password. To find n, we use log base 2:
+
+- Entropy
+- Complexity
+- Big number arithmetic
+- Prime numbers
